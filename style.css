@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/c38a2d52-138e-48a3-ab68-36787ece46b3/eeb03fc9-99c6-438e-824d-32917ce55783/IN-en-20240101-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    height: 800px;
+    position: relative;
+    background-repeat:no-repeat;
+    background-size: max(1200px,100vw);
+    background-position: center center;
+    opacity: 0.7;
+}
+nav{
+    max-width: 60vw;
+    justify-content: space-between;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    height: 62px;
+
+}
+nav img{
+    color: red;
+    width: 114px;
+    position: relative;
+    z-index: 10;
+}
+#btn1{
+    background-color: red;
+    color:white;
+    padding: 3px 8px;
+}
+#btn2{
+    background-color: red;
+    color:white;
+    padding: 3px 8px;
+}
+.content{
+    height: calc(100% - 62px);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 5px;
+    padding: 0 30px;
+}
+.content> :nth-child(1){
+    font-weight: 600;
+    font-size: 30px;
+}
+.content> :nth-child(2){
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+.content> :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
